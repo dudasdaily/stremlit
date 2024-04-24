@@ -21,3 +21,14 @@ st.selectbox('Pick your gender', ['Male', 'Female'])
 st.multiselect('choose', ['A', 'B', 'C'])
 st.select_slider('Pick a mark', ['Bad', 'Good', 'Excellent'])
 st.slider('Pick a number', 0, 50)
+
+# 히스토그램
+import numpy as np
+import matplotlib.pyplot as plt
+
+rand = np.random.norma(1, 2, size=20)
+fig, ax = plt.subplots()
+
+ax.hist(rand, bins = 15)
+
+slt.pyplot(fig)

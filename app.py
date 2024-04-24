@@ -31,4 +31,4 @@ fig, ax = plt.subplots()
 
 ax.hist(rand, bins = 15)
 
-slt.pyplot(fig)
+st.pyplot(fig)

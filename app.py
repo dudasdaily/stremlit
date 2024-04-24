@@ -26,7 +26,7 @@ st.slider('Pick a number', 0, 50)
 import numpy as np
 import matplotlib.pyplot as plt
 
-rand = np.random.norma(1, 2, size=20)
+rand = np.random.normal(1, 2, size=20)
 fig, ax = plt.subplots()
 
 ax.hist(rand, bins = 15)
